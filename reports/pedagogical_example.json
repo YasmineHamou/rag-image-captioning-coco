@@ -1,0 +1,420 @@
+{
+  "scope": "Report-only trace of existing real retrieval; no new model inference or final evaluation",
+  "query_image_id": 490,
+  "query_split": "validation",
+  "image_path": "data/raw/train2017/000000000490.jpg",
+  "file_sha256": "8d98a07c4e357c3e93c5a76deb41b51a285ee75d728b084563cc0f7e06e66998",
+  "original_size": [
+    500,
+    495
+  ],
+  "processor_tensor_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "processor_dtype": "float32",
+  "query_vector_source": "Saved vector from the executed 100-query validation run",
+  "query_vector_row_zero_based": 0,
+  "query_vector_first_six": [
+    -0.004753857385367155,
+    0.01972431316971779,
+    -0.0122026102617383,
+    0.05968843773007393,
+    -0.0020756907761096954,
+    -0.0010868089739233255
+  ],
+  "query_vector_norm": 1.0,
+  "query_not_in_image_index": true,
+  "query_metadata": {
+    "image_id": 490,
+    "file_name": "000000000490.jpg",
+    "split": "validation",
+    "coco_source": "train2017",
+    "width": 500,
+    "height": 495,
+    "annotation_width": 500,
+    "annotation_height": 495,
+    "bbox_coordinates": "original COCO coordinates before EXIF transpose; overlay on original image",
+    "file_sha256": "8d98a07c4e357c3e93c5a76deb41b51a285ee75d728b084563cc0f7e06e66998",
+    "captions": [
+      {
+        "caption_id": 539399,
+        "caption_raw": "A dog stands next to a skateboard leaned up against a wall.",
+        "caption_clean": "A dog stands next to a skateboard leaned up against a wall.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      },
+      {
+        "caption_id": 543632,
+        "caption_raw": "A dog standing on hard wood floors and next to a wall with his shadow.",
+        "caption_clean": "A dog standing on hard wood floors and next to a wall with his shadow.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      },
+      {
+        "caption_id": 544241,
+        "caption_raw": "A dog standing next to a skateboard on a wall.",
+        "caption_clean": "A dog standing next to a skateboard on a wall.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      },
+      {
+        "caption_id": 545693,
+        "caption_raw": "Dog and skateboard in a room and shadow of dog and person on a wall.",
+        "caption_clean": "Dog and skateboard in a room and shadow of dog and person on a wall.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      },
+      {
+        "caption_id": 546263,
+        "caption_raw": "A dog is looking at someone in the room.",
+        "caption_clean": "A dog is looking at someone in the room.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      }
+    ],
+    "objects": [
+      {
+        "id": 12348,
+        "category_id": 18,
+        "category": "dog",
+        "bbox": [
+          46.0,
+          193.0,
+          90.0,
+          143.0
+        ],
+        "bbox_valid": true,
+        "iscrowd": 0,
+        "source": "coco_annotation"
+      },
+      {
+        "id": 640615,
+        "category_id": 41,
+        "category": "skateboard",
+        "bbox": [
+          304.79,
+          136.82,
+          91.21,
+          251.39
+        ],
+        "bbox_valid": true,
+        "iscrowd": 0,
+        "source": "coco_annotation"
+      }
+    ],
+    "object_count": 2,
+    "distinct_categories": 2,
+    "complexity": {
+      "value": "simple",
+      "source": "instance_count_heuristic"
+    },
+    "derived_attributes": {
+      "source": "caption_heuristic",
+      "method": "exact lowercase English word lexicons v1",
+      "values": {
+        "colour": [],
+        "shape": [],
+        "context": [],
+        "relation": [
+          "on"
+        ]
+      },
+      "unknown_when_absent": true
+    },
+    "reference_confidence_policy": {
+      "human_caption_confidence": 1.0,
+      "human_caption_threshold": 1.0,
+      "meaning": "Retain all human references; not a calibrated probability or detector score. Derived heuristics have no confidence=1."
+    },
+    "spatial_relations": {
+      "source": "bbox_heuristic",
+      "counts": {
+        "left_of": 1,
+        "above": 1,
+        "right_of": 1,
+        "below": 1
+      },
+      "excluded_annotation_ids": []
+    }
+  },
+  "verified_top5": [
+    {
+      "rank": 1,
+      "faiss_row_zero_based": 4450,
+      "image_id": 267664,
+      "cosine_similarity": 0.8183810710906982,
+      "direct_dot_product": 0.8183810710906982,
+      "captions": [
+        {
+          "caption_id": 260724,
+          "caption_raw": "A cat standing next to a red chair in a living room.",
+          "caption_clean": "A cat standing next to a red chair in a living room.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 265077,
+          "caption_raw": "A lone cat sits in a dark room with some furniture.",
+          "caption_clean": "A lone cat sits in a dark room with some furniture.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 266604,
+          "caption_raw": "A cat in a living room next to a red chair.",
+          "caption_clean": "A cat in a living room next to a red chair.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 268101,
+          "caption_raw": "A cat sitting next to a red chair in a room.",
+          "caption_clean": "A cat sitting next to a red chair in a room.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 270681,
+          "caption_raw": "A cat sits on the floor next to a sofa.",
+          "caption_clean": "A cat sits on the floor next to a sofa.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "faiss_row_zero_based": 9369,
+      "image_id": 545323,
+      "cosine_similarity": 0.8012362718582153,
+      "direct_dot_product": 0.8012361526489258,
+      "captions": [
+        {
+          "caption_id": 759833,
+          "caption_raw": "a close up of a dog laying on a bench ",
+          "caption_clean": "a close up of a dog laying on a bench",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 761840,
+          "caption_raw": "A dog is sitting on a black bench.",
+          "caption_clean": "A dog is sitting on a black bench.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 762656,
+          "caption_raw": "A dog laying on a bench on a porch.",
+          "caption_clean": "A dog laying on a bench on a porch.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 764081,
+          "caption_raw": "The dog was laying in the sun on the bench.",
+          "caption_clean": "The dog was laying in the sun on the bench.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 764615,
+          "caption_raw": "A dog is sitting on a bench in front of a wall. ",
+          "caption_clean": "A dog is sitting on a bench in front of a wall.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "faiss_row_zero_based": 2178,
+      "image_id": 127643,
+      "cosine_similarity": 0.7903623580932617,
+      "direct_dot_product": 0.7903623580932617,
+      "captions": [
+        {
+          "caption_id": 288594,
+          "caption_raw": "A dog rides a skateboard down a sidewalk. ",
+          "caption_clean": "A dog rides a skateboard down a sidewalk.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 291132,
+          "caption_raw": "A bull dog with a bandana rides a skateboard.",
+          "caption_clean": "A bull dog with a bandana rides a skateboard.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 291621,
+          "caption_raw": "A dog is riding on a black skateboard with maroon wheels.",
+          "caption_clean": "A dog is riding on a black skateboard with maroon wheels.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 295980,
+          "caption_raw": "A dog wearing a bandana rides a skateboard.",
+          "caption_clean": "A dog wearing a bandana rides a skateboard.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 296472,
+          "caption_raw": "A brown dog standing on top of a skateboard.",
+          "caption_clean": "A brown dog standing on top of a skateboard.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "faiss_row_zero_based": 8833,
+      "image_id": 516396,
+      "cosine_similarity": 0.7784161567687988,
+      "direct_dot_product": 0.7784161567687988,
+      "captions": [
+        {
+          "caption_id": 244684,
+          "caption_raw": "A big dark colored dog standing with his front paws on a skate board.",
+          "caption_clean": "A big dark colored dog standing with his front paws on a skate board.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 250693,
+          "caption_raw": "A dog standing with front paws on a skateboard",
+          "caption_clean": "A dog standing with front paws on a skateboard",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 257326,
+          "caption_raw": "A dog is panting while riding two paw on a skateboard.",
+          "caption_clean": "A dog is panting while riding two paw on a skateboard.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 257821,
+          "caption_raw": "A dog with its front paws on a skateboard. ",
+          "caption_clean": "A dog with its front paws on a skateboard.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 259789,
+          "caption_raw": "A warm brown dog standing on a skateboard in a park.",
+          "caption_clean": "A warm brown dog standing on a skateboard in a park.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "faiss_row_zero_based": 1366,
+      "image_id": 81686,
+      "cosine_similarity": 0.7727473974227905,
+      "direct_dot_product": 0.7727473974227905,
+      "captions": [
+        {
+          "caption_id": 694636,
+          "caption_raw": "A dog sits on a rug with its eyes closed. ",
+          "caption_clean": "A dog sits on a rug with its eyes closed.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 694927,
+          "caption_raw": "Most of this dog is either happy, tired, or a combination of both",
+          "caption_clean": "Most of this dog is either happy, tired, or a combination of both",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 695866,
+          "caption_raw": "The dog is sitting on the area rug. ",
+          "caption_clean": "The dog is sitting on the area rug.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 698422,
+          "caption_raw": "a dog sitting on a rug with his eyes closed",
+          "caption_clean": "a dog sitting on a rug with his eyes closed",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        },
+        {
+          "caption_id": 700255,
+          "caption_raw": "A dog sitting on a rug with his eyes close. ",
+          "caption_clean": "A dog sitting on a rug with his eyes close.",
+          "source": "coco_human_reference",
+          "confidence": 1.0,
+          "confidence_policy": "human_reference_convention_only"
+        }
+      ]
+    }
+  ],
+  "qualitative_examples": [
+    {
+      "query_image_id": 135250,
+      "top1_image_id": 227125,
+      "cosine_similarity": 0.8381553888320923,
+      "interpretation": "Both depict traffic lights; different viewpoint and surroundings"
+    },
+    {
+      "query_image_id": 490,
+      "top1_image_id": 267664,
+      "cosine_similarity": 0.8183810710906982,
+      "interpretation": "Query dog/skateboard; top1 cat/room. Object mismatch despite visual similarity"
+    }
+  ],
+  "qualitative_policy": "Two illustrative cases, not a representative sample or a measured relevance rate; references consulted only after retrieval",
+  "artifact_sha256": {
+    "reports/retrieval/validation/results.json": "d7317fa18b1fa9f34f651e7e73374ec103d100b63edbf9785bfe1f8f9f0de3cf",
+    "reports/retrieval/validation/query_embeddings.npy": "b14af7a4efb9bc74f8dedceac6a4be637b068ddb06039cc09f0625c4dc5f5af5",
+    "reports/retrieval/validation/query_rows.json": "363c6abf28045ce1286f7d1e4a1f827bcddb4d93643be1148ba1bbfcac2f135c",
+    "artifacts/embeddings/image.npy": "d1c229a0d10b3096ba1fa9b13ae972e18dfe5286b52181bedca0a98f7c086608",
+    "artifacts/indexes/image.index": "450973a52630803f03253d31b98cc29d3c0443e20d1a81679d72b951d4b7259a",
+    "artifacts/indexes/image_rows.json": "63c3276509bce6e7f68487ab0c5f246ef911130bce6ac8e0f4e088169cdee9d8",
+    "artifacts/metadata/knowledge_base.jsonl": "ccb7d0bf5f393e84bbc4c4b5149e1c1fc7b02c7e7a74a204b89140c0bfc13631",
+    "artifacts/metadata/validation.jsonl": "39dfc6cc1e427efa78683936f417524ca1ce9f2ce3002873a7a28910e495d464"
+  }
+}

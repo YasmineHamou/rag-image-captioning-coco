@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-28T19:24:40.562346+00:00",
+  "preprocessing_version": "phase1-v1",
+  "config_sha256": "9eaaf3d2fde118a3e643aefc44515bc8a3d8025531ad50c749f37b315eba7273",
+  "packages": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "nltk": "3.10.4",
+    "pycocotools": "2.0.11",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.21.0",
+    "faiss-cpu": "1.15.1",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "2.3.0",
+    "tqdm": "4.70.1"
+  },
+  "input_sha256": "3651cae998dd91f96c3c5944b2926a1dd37ff443bc465bc6170813a38186f3a3",
+  "model": "openai/clip-vit-base-patch32",
+  "requested_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "resolved_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "shared_image_text_space": true,
+  "text_model": "openai/clip-vit-base-patch32",
+  "text_resolved_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "batch_size": 32,
+  "dtype": "float32",
+  "normalization": "L2 per row",
+  "text_truncation_count": 0,
+  "query_policy": "Only KB reference captions encoded; validation/test references excluded",
+  "elapsed_seconds_this_run": 582.0608039999988,
+  "image": {
+    "dimension": 512,
+    "vectors": 10000,
+    "files_sha256": {
+      "image.npy": "d1c229a0d10b3096ba1fa9b13ae972e18dfe5286b52181bedca0a98f7c086608",
+      "image_rows.json": "63c3276509bce6e7f68487ab0c5f246ef911130bce6ac8e0f4e088169cdee9d8"
+    }
+  },
+  "text": {
+    "dimension": 512,
+    "vectors": 50000,
+    "files_sha256": {
+      "text.npy": "404fdb8ce957d1cafafcf299f6a500c2085bd21647bcf56b7f44ed9a6e69f740",
+      "text_rows.json": "db38337dc89ad92b962a23e24ad0732a6f23207428dc1f0f458b407663a57426"
+    }
+  },
+  "identity_schema_version": 2,
+  "provenance_updated_utc": "2026-11-07T18:49:54.877928+00:00",
+  "verified_reuse": {
+    "reason": "Test-only extension and human-reference confidence fields do not change encoder inputs",
+    "encoder_inputs_identical": true,
+    "kb_vectors_recomputed": false,
+    "original_manifest_sha256": "3bf0d85f7707b487566edfcda47ddff8fb5cf5cea217c319598f4d4fa4f8589b"
+  }
+}

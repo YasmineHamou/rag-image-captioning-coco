@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-11-07T18:49:58.771158+00:00",
+  "preprocessing_version": "phase1-v1",
+  "config_sha256": "9eaaf3d2fde118a3e643aefc44515bc8a3d8025531ad50c749f37b315eba7273",
+  "packages": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "nltk": "3.10.4",
+    "pycocotools": "2.0.11",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.21.0",
+    "faiss-cpu": "1.15.1",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "2.3.0",
+    "tqdm": "4.70.1"
+  },
+  "embedding_manifest_sha256": "785ecbdbd95057a35979d53486050822438f46d0fc411b6d4d6c9679a2fad701",
+  "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "indexes": {
+    "image": {
+      "type": "IndexFlatIP",
+      "dimension": 512,
+      "vectors": 10000,
+      "metric": "inner_product_on_L2_normalized_vectors = cosine",
+      "build_seconds": 0.007507100002840161,
+      "bytes_on_disk": 20480045,
+      "files_sha256": {
+        "image.index": "450973a52630803f03253d31b98cc29d3c0443e20d1a81679d72b951d4b7259a",
+        "image_rows.json": "63c3276509bce6e7f68487ab0c5f246ef911130bce6ac8e0f4e088169cdee9d8"
+      }
+    },
+    "text": {
+      "type": "IndexFlatIP",
+      "dimension": 512,
+      "vectors": 50000,
+      "metric": "inner_product_on_L2_normalized_vectors = cosine",
+      "build_seconds": 0.034012399992207065,
+      "bytes_on_disk": 102400045,
+      "files_sha256": {
+        "text.index": "b9dde7d01c93e8dadcb1a80f8aff7ac52f064f0d6ac85e67328192ada195e615",
+        "text_rows.json": "db38337dc89ad92b962a23e24ad0732a6f23207428dc1f0f458b407663a57426"
+      }
+    }
+  }
+}

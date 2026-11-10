@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-11-07T18:49:22.153157+00:00",
+  "preprocessing_version": "phase1-v1",
+  "config_sha256": "9eaaf3d2fde118a3e643aefc44515bc8a3d8025531ad50c749f37b315eba7273",
+  "packages": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "nltk": "3.10.4",
+    "pycocotools": "2.0.11",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.21.0",
+    "faiss-cpu": "1.15.1",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "2.3.0",
+    "tqdm": "4.70.1"
+  },
+  "outputs": {
+    "knowledge_base": {
+      "rows": 10000,
+      "sha256": "ccb7d0bf5f393e84bbc4c4b5149e1c1fc7b02c7e7a74a204b89140c0bfc13631"
+    },
+    "validation": {
+      "rows": 100,
+      "sha256": "39dfc6cc1e427efa78683936f417524ca1ce9f2ce3002873a7a28910e495d464"
+    },
+    "test": {
+      "rows": 1000,
+      "sha256": "dbdc4644794966f5af4282c09b1b122c9c4e0905e7d9a15ce787b6132f668bbb"
+    }
+  },
+  "annotation_sha256": {
+    "captions_train2017.json": "4b62086319480e0739ef390d04084515defb9c213ff13605a036061e33314317",
+    "instances_train2017.json": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+    "captions_val2017.json": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+    "instances_val2017.json": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f"
+  },
+  "split_sha256": "49dc4079e94ec8e6e9c66ef16fb07cf0957379c0ef52918f8931b742bff84f4b",
+  "preprocessing": {
+    "lowercase": false,
+    "version": "phase1-v1"
+  },
+  "analysis": {
+    "simple_max_objects": 3,
+    "medium_max_objects": 7,
+    "top_classes": 50,
+    "cooccurrence_classes": 20,
+    "spatial_iou_threshold": 0.1,
+    "example_images": 6,
+    "pos_resource": "averaged_perceptron_tagger_eng"
+  },
+  "metadata_schema_version": 2,
+  "metadata_policy": {
+    "human_caption_confidence": 1.0,
+    "human_caption_threshold": 1.0,
+    "confidence_policy": "human_reference_convention_only"
+  },
+  "reference_policy": "Raw captions preserved. Only knowledge_base.jsonl may feed retrieval. Validation/test metadata is analysis-only.",
+  "crowd_policy": "Counts are annotation instances including iscrowd; crowd annotations may represent multiple physical objects.",
+  "degenerate_bbox_policy": "Retain original object/category annotation and image; mark bbox_valid=false; exclude only from spatial relations and bounding-box drawing. See initial audit and documented annotation 918."
+}

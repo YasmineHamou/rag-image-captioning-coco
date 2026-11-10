@@ -1,0 +1,286 @@
+caption_normalized,split,image_id,caption_id
+a man that is standing on a surfboard in the water.,knowledge_base,16071,456004
+a man that is standing on a surfboard in the water.,knowledge_base,339035,611779
+a man that is standing on a surfboard in the water.,knowledge_base,372464,799034
+a man that is standing on a surfboard in the water.,knowledge_base,481547,785564
+a man that is standing on a surfboard in the water.,test,209829,778772
+a man riding skis down a snow covered slope.,knowledge_base,20570,546530
+a man riding skis down a snow covered slope.,knowledge_base,26537,495760
+a man riding skis down a snow covered slope.,knowledge_base,211743,585770
+a man riding skis down a snow covered slope.,knowledge_base,226588,97952
+a man riding skis down a snow covered slope.,knowledge_base,351702,353811
+a man riding skis down a snow covered slope.,knowledge_base,392750,207990
+a man riding skis down a snow covered slope.,knowledge_base,434211,478640
+a man riding skis down a snow covered slope.,knowledge_base,455302,584682
+a man riding skis down a snow covered slope.,knowledge_base,539636,566067
+a man riding skis down a snow covered slope.,test,515577,181701
+a man flying through the air while riding a skateboard.,knowledge_base,26425,632522
+a man flying through the air while riding a skateboard.,knowledge_base,104885,181396
+a man flying through the air while riding a skateboard.,knowledge_base,154424,620782
+a man flying through the air while riding a skateboard.,knowledge_base,155543,640252
+a man flying through the air while riding a skateboard.,knowledge_base,166173,734741
+a man flying through the air while riding a skateboard.,knowledge_base,172408,334264
+a man flying through the air while riding a skateboard.,knowledge_base,244095,589420
+a man flying through the air while riding a skateboard.,knowledge_base,324155,680895
+a man flying through the air while riding a skateboard.,knowledge_base,416338,761796
+a man flying through the air while riding a skateboard.,knowledge_base,435479,349994
+a man flying through the air while riding a skateboard.,knowledge_base,487679,162621
+a man flying through the air while riding a skateboard.,knowledge_base,525382,734771
+a man flying through the air while riding a skateboard.,test,65350,283122
+a laptop computer sitting on top of a wooden desk.,knowledge_base,30836,592401
+a laptop computer sitting on top of a wooden desk.,knowledge_base,78394,335611
+a laptop computer sitting on top of a wooden desk.,knowledge_base,105904,567173
+a laptop computer sitting on top of a wooden desk.,knowledge_base,430135,226304
+a laptop computer sitting on top of a wooden desk.,knowledge_base,431009,354942
+a laptop computer sitting on top of a wooden desk.,knowledge_base,456310,569334
+a laptop computer sitting on top of a wooden desk.,knowledge_base,484201,619726
+a laptop computer sitting on top of a wooden desk.,test,136600,334388
+a laptop computer sitting on top of a wooden desk.,validation,321508,721291
+a bride and groom cutting their wedding cake.,knowledge_base,31041,224401
+a bride and groom cutting their wedding cake.,knowledge_base,469203,319963
+a bride and groom cutting their wedding cake.,knowledge_base,485265,302792
+a bride and groom cutting their wedding cake.,test,31620,313927
+i am unable to see the image above.,knowledge_base,31601,488299
+i am unable to see the image above.,knowledge_base,67356,498679
+i am unable to see the image above.,knowledge_base,432604,445978
+i am unable to see the image above.,test,38118,450487
+a tennis player in action on the court.,knowledge_base,37519,679786
+a tennis player in action on the court.,knowledge_base,53360,433879
+a tennis player in action on the court.,knowledge_base,339851,674333
+a tennis player in action on the court.,knowledge_base,408978,722973
+a tennis player in action on the court.,validation,578836,678927
+the man is playing a game of tennis on the court.,knowledge_base,45136,819045
+the man is playing a game of tennis on the court.,test,79969,665908
+a person riding skis down a snow covered slope.,knowledge_base,46195,589437
+a person riding skis down a snow covered slope.,knowledge_base,209188,508675
+a person riding skis down a snow covered slope.,validation,502998,333153
+a large black bear walking across a field.,knowledge_base,52044,273573
+a large black bear walking across a field.,test,110972,640085
+a public transit bus on a city street,knowledge_base,62815,488848
+a public transit bus on a city street,knowledge_base,66839,732403
+a public transit bus on a city street,knowledge_base,171915,377927
+a public transit bus on a city street,knowledge_base,257044,380922
+a public transit bus on a city street,knowledge_base,267372,816319
+a public transit bus on a city street,knowledge_base,500575,484446
+a public transit bus on a city street,knowledge_base,522160,305914
+a public transit bus on a city street,knowledge_base,570721,605851
+a public transit bus on a city street,test,423519,759552
+a public transit bus on a city street,test,516143,604193
+a man sitting in front of a laptop computer.,knowledge_base,66376,495499
+a man sitting in front of a laptop computer.,test,564336,690354
+a man swinging a tennis racquet on a court.,knowledge_base,67427,789296
+a man swinging a tennis racquet on a court.,knowledge_base,285967,463273
+a man swinging a tennis racquet on a court.,knowledge_base,361799,823080
+a man swinging a tennis racquet on a court.,test,79969,665353
+a large long train on a steel track.,knowledge_base,67768,338744
+a large long train on a steel track.,knowledge_base,103089,415694
+a large long train on a steel track.,knowledge_base,178895,581511
+a large long train on a steel track.,knowledge_base,274606,539855
+a large long train on a steel track.,knowledge_base,370929,434560
+a large long train on a steel track.,knowledge_base,382630,439864
+a large long train on a steel track.,knowledge_base,526797,434326
+a large long train on a steel track.,knowledge_base,556647,337855
+a large long train on a steel track.,test,159684,453140
+a large long train on a steel track.,test,275791,415663
+a large long train on a steel track.,test,479030,386323
+a large long train on a steel track.,test,579818,578929
+a group of young people playing a game of frisbee.,knowledge_base,77136,103837
+a group of young people playing a game of frisbee.,knowledge_base,317015,33540
+a group of young people playing a game of frisbee.,validation,333277,589240
+a person riding a skate board on a ledge,knowledge_base,83739,93533
+a person riding a skate board on a ledge,knowledge_base,318543,305957
+a person riding a skate board on a ledge,test,295138,265421
+a large tall building with a clock on the top.,knowledge_base,89849,645636
+a large tall building with a clock on the top.,test,308531,434287
+a tennis player taking a swing at a ball,knowledge_base,90052,89607
+a tennis player taking a swing at a ball,test,229849,285236
+a couple of men are playing video games,knowledge_base,97809,810234
+a couple of men are playing video games,validation,571665,632448
+a man flying through the air while riding a snowboard.,knowledge_base,106664,338201
+a man flying through the air while riding a snowboard.,knowledge_base,126470,671575
+a man flying through the air while riding a snowboard.,knowledge_base,443413,547083
+a man flying through the air while riding a snowboard.,test,425906,601017
+a man flying through the air while riding a snowboard.,validation,84403,178769
+a man on a skateboard jumping up in the air.,knowledge_base,120370,373062
+a man on a skateboard jumping up in the air.,test,185950,323784
+a white plate of food on a table.,knowledge_base,123273,375495
+a white plate of food on a table.,knowledge_base,403333,633139
+a white plate of food on a table.,test,127494,389506
+a bunch of food that is on a plate.,knowledge_base,145843,748519
+a bunch of food that is on a plate.,knowledge_base,354261,750341
+a bunch of food that is on a plate.,test,167572,489019
+an open laptop computer sitting on top of a bed.,knowledge_base,153638,387035
+an open laptop computer sitting on top of a bed.,test,243199,97605
+a laptop and computer mouse on a table.,knowledge_base,153638,389324
+a laptop and computer mouse on a table.,test,348481,386734
+a giraffe that is standing near the trees.,knowledge_base,159742,692946
+a giraffe that is standing near the trees.,validation,461669,438726
+a man riding a skateboard up the side of a ramp.,knowledge_base,162523,704925
+a man riding a skateboard up the side of a ramp.,knowledge_base,272323,402616
+a man riding a skateboard up the side of a ramp.,knowledge_base,322629,582950
+a man riding a skateboard up the side of a ramp.,knowledge_base,347392,272868
+a man riding a skateboard up the side of a ramp.,test,150649,549153
+a man riding a skateboard up the side of a ramp.,test,194471,217818
+a man in white shirt and black shorts playing tennis.,knowledge_base,167494,323202
+a man in white shirt and black shorts playing tennis.,test,223959,278917
+a man on a court swinging a tennis racket.,knowledge_base,167494,329841
+a man on a court swinging a tennis racket.,knowledge_base,553859,274164
+a man on a court swinging a tennis racket.,test,410496,288882
+a man riding on top of a wave on a surfboard.,knowledge_base,169270,478767
+a man riding on top of a wave on a surfboard.,test,390246,403015
+a clock that is at the top of a pole.,knowledge_base,185993,453148
+a clock that is at the top of a pole.,test,409542,545228
+a person riding a surf board on a wave,knowledge_base,186941,405825
+a person riding a surf board on a wave,knowledge_base,228505,569134
+a person riding a surf board on a wave,knowledge_base,249537,246057
+a person riding a surf board on a wave,test,292908,441444
+a person riding a surf board on a wave,test,378116,467382
+a person riding a surf board on a wave,test,390246,404656
+a person riding a surf board on a wave,validation,574986,378259
+a bus that is sitting in the street.,knowledge_base,187324,430706
+a bus that is sitting in the street.,test,362682,750796
+a person jumping a snow board in the air,knowledge_base,188375,162749
+a person jumping a snow board in the air,knowledge_base,408219,219463
+a person jumping a snow board in the air,test,425906,603924
+a person jumping a snow board in the air,validation,156512,364447
+a man holding a tennis racquet on a tennis court.,knowledge_base,192233,152289
+a man holding a tennis racquet on a tennis court.,knowledge_base,214121,615041
+a man holding a tennis racquet on a tennis court.,knowledge_base,258859,261276
+a man holding a tennis racquet on a tennis court.,knowledge_base,278697,453786
+a man holding a tennis racquet on a tennis court.,knowledge_base,309319,74677
+a man holding a tennis racquet on a tennis court.,knowledge_base,369775,164613
+a man holding a tennis racquet on a tennis court.,knowledge_base,472757,620421
+a man holding a tennis racquet on a tennis court.,knowledge_base,473616,145876
+a man holding a tennis racquet on a tennis court.,knowledge_base,479560,84306
+a man holding a tennis racquet on a tennis court.,knowledge_base,553859,272808
+a man holding a tennis racquet on a tennis court.,test,223959,168904
+a group of people sitting around a long table,knowledge_base,196351,158425
+a group of people sitting around a long table,test,238410,557462
+a man is doing tricks on a skateboard.,knowledge_base,196516,700523
+a man is doing tricks on a skateboard.,test,187585,765298
+a woman riding skis across snow covered ground.,knowledge_base,197591,222407
+a woman riding skis across snow covered ground.,test,439522,612718
+a man hitting a tennis ball with a tennis racquet.,knowledge_base,220972,686338
+a man hitting a tennis ball with a tennis racquet.,knowledge_base,350513,202036
+a man hitting a tennis ball with a tennis racquet.,test,25424,508892
+there is a male tennis player about to hit the ball,knowledge_base,220972,691237
+there is a male tennis player about to hit the ball,test,64718,451753
+a person on a skateboard does an air trick.,knowledge_base,221669,436877
+a person on a skateboard does an air trick.,knowledge_base,265267,149677
+a person on a skateboard does an air trick.,knowledge_base,426855,159562
+a person on a skateboard does an air trick.,test,576566,436084
+a white toilet in a bathroom next to a sink.,knowledge_base,233955,411831
+a white toilet in a bathroom next to a sink.,validation,125955,478446
+a person on a court with a tennis racket.,knowledge_base,235499,422019
+a person on a court with a tennis racket.,knowledge_base,272007,565752
+a person on a court with a tennis racket.,knowledge_base,322710,566172
+a person on a court with a tennis racket.,knowledge_base,361799,456227
+a person on a court with a tennis racket.,knowledge_base,377423,559512
+a person on a court with a tennis racket.,knowledge_base,537367,459595
+a person on a court with a tennis racket.,test,382009,459504
+a tennis player is getting ready to hit a ball.,knowledge_base,235912,305064
+a tennis player is getting ready to hit a ball.,test,397279,790713
+a baseball player pitching a baseball on top of a field.,knowledge_base,236571,566799
+a baseball player pitching a baseball on top of a field.,knowledge_base,357529,427580
+a baseball player pitching a baseball on top of a field.,test,430961,770470
+a woman standing on a tennis court holding a racquet.,knowledge_base,262242,549896
+a woman standing on a tennis court holding a racquet.,knowledge_base,316971,201324
+a woman standing on a tennis court holding a racquet.,knowledge_base,359004,267642
+a woman standing on a tennis court holding a racquet.,test,166165,226287
+a zebra standing on top of a grass covered field.,knowledge_base,266069,588362
+a zebra standing on top of a grass covered field.,knowledge_base,449108,708715
+a zebra standing on top of a grass covered field.,test,125211,457126
+a passenger train that is pulling into a station.,knowledge_base,272838,442531
+a passenger train that is pulling into a station.,knowledge_base,369762,221859
+a passenger train that is pulling into a station.,knowledge_base,377174,452621
+a passenger train that is pulling into a station.,test,249643,401167
+a man flying through the air on top of a skateboard.,knowledge_base,275057,548050
+a man flying through the air on top of a skateboard.,test,576566,439198
+a train traveling down the rail road tracks.,knowledge_base,290952,212079
+a train traveling down the rail road tracks.,test,155443,730748
+a room showing a cooker and an oven,knowledge_base,293304,699246
+a room showing a cooker and an oven,test,175364,698961
+a bunch of cows that are standing in the grass.,knowledge_base,297439,570708
+a bunch of cows that are standing in the grass.,test,415990,781284
+a man wearing a jacket and a bow tie.,knowledge_base,300200,722034
+a man wearing a jacket and a bow tie.,test,274219,712404
+a double deckered bus on a city street,knowledge_base,303436,106482
+a double deckered bus on a city street,knowledge_base,389491,469271
+a double deckered bus on a city street,test,329614,448261
+a person on a skateboard on a street.,knowledge_base,308774,485296
+a person on a skateboard on a street.,test,458325,441678
+a large group of people on a city street.,knowledge_base,320944,687047
+a large group of people on a city street.,test,12670,561460
+a group of people sitting at a table.,knowledge_base,321968,540161
+a group of people sitting at a table.,test,189475,308951
+a group of people sitting at a table.,validation,457718,805921
+a person riding a wave on top of a surfboard.,knowledge_base,328688,685202
+a person riding a wave on top of a surfboard.,test,378116,464649
+a herd of sheep grazing on a lush green field.,knowledge_base,333144,625503
+a herd of sheep grazing on a lush green field.,knowledge_base,481981,203090
+a herd of sheep grazing on a lush green field.,test,548267,387309
+a herd of sheep grazing on a lush green field.,test,552612,105027
+a herd of cattle grazing on a lush green field.,knowledge_base,338579,204701
+a herd of cattle grazing on a lush green field.,test,185473,352551
+a vase filled with yellow and white flowers.,knowledge_base,346566,427674
+a vase filled with yellow and white flowers.,test,521282,696837
+a person jumping up in the air on a skateboard.,knowledge_base,348144,565219
+a person jumping up in the air on a skateboard.,knowledge_base,477428,424484
+a person jumping up in the air on a skateboard.,knowledge_base,540556,449069
+a person jumping up in the air on a skateboard.,test,576566,441676
+a group of men riding skis on top of a snow covered slope.,knowledge_base,350492,748252
+a group of men riding skis on top of a snow covered slope.,test,53626,719493
+a baseball player holding a bat standing next to home plate.,knowledge_base,359232,457128
+a baseball player holding a bat standing next to home plate.,knowledge_base,445574,191798
+a baseball player holding a bat standing next to home plate.,test,62355,225691
+a baseball player holding a bat standing next to home plate.,validation,412134,600175
+a couple of sandwiches are on a white plate,knowledge_base,360101,737775
+a couple of sandwiches are on a white plate,test,304984,668588
+a tennis player with a ball and a racket,knowledge_base,365735,759482
+a tennis player with a ball and a racket,test,170474,800209
+a tennis player on a court with a racket,knowledge_base,371511,393131
+a tennis player on a court with a racket,knowledge_base,506341,304939
+a tennis player on a court with a racket,knowledge_base,560630,469474
+a tennis player on a court with a racket,test,382009,468327
+a train traveling down train tracks near a train station.,knowledge_base,387849,423453
+a train traveling down train tracks near a train station.,test,249643,399172
+a man is surfing on a wave in the ocean.,knowledge_base,388611,815115
+a man is surfing on a wave in the ocean.,test,292908,437751
+a group of giraffes that are standing in the grass.,knowledge_base,388812,502379
+a group of giraffes that are standing in the grass.,test,205282,748945
+a man riding a snowboard down the side of a snow covered slope.,knowledge_base,395304,167703
+a man riding a snowboard down the side of a snow covered slope.,test,426376,539653
+a dog catching a frisbee in the grass.,knowledge_base,397842,518528
+a dog catching a frisbee in the grass.,test,369541,771630
+there is an old woman sitting on a bench,knowledge_base,440060,140038
+there is an old woman sitting on a bench,test,186449,662850
+a man blowing out candles on a cake,knowledge_base,440480,111185
+a man blowing out candles on a cake,test,211825,133428
+two people playing with an interactive gaming unit.,knowledge_base,475658,788296
+two people playing with an interactive gaming unit.,test,110449,747237
+two people playing with an interactive gaming unit.,test,404839,774267
+a group of people sitting at a table,knowledge_base,475668,428497
+a group of people sitting at a table,validation,457718,800317
+a tennis player getting ready to serve the ball,knowledge_base,477010,43298
+a tennis player getting ready to serve the ball,test,274411,465208
+a pepperoni pizza sitting on top of a white plate.,knowledge_base,485616,135178
+a pepperoni pizza sitting on top of a white plate.,test,351331,637652
+a couple of elephants standing next to each other.,knowledge_base,488880,228411
+a couple of elephants standing next to each other.,test,368961,72552
+a group of people sitting around a table.,knowledge_base,489798,207246
+a group of people sitting around a table.,test,209530,714645
+a group of people sitting around a table.,test,579070,597110
+a person on a snowboard rides on a hill.,knowledge_base,493004,442102
+a person on a snowboard rides on a hill.,validation,156512,369706
+a living room filled with furniture and a flat screen tv.,knowledge_base,524822,689545
+a living room filled with furniture and a flat screen tv.,test,139684,137601
+a woman holding a tennis racquet on a tennis court.,knowledge_base,553297,495146
+a woman holding a tennis racquet on a tennis court.,test,449579,412078
+a batter swings at a pitch during a baseball game.,knowledge_base,562075,803992
+a batter swings at a pitch during a baseball game.,test,60507,704221
+a couple of cars are driving down a city street,knowledge_base,572308,716883
+a couple of cars are driving down a city street,test,54967,668730
+a man holding a baseball bat during a baseball game.,knowledge_base,574977,109411
+a man holding a baseball bat during a baseball game.,test,311002,274521
+a traffic light sitting on the side of a road.,test,480944,322692
+a traffic light sitting on the side of a road.,validation,135250,336548

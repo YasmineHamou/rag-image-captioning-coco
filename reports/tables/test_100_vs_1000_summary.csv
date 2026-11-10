@@ -1,0 +1,3 @@
+view,images,captions,objects_mean,objects_median,objects_std_population,caption_words_mean,vocabulary_size,simple_images,medium_images,complex_images
+test_100,100,500,7.05,4.0,6.4627780404405035,10.272,904,42,24,34
+test_1000,1000,5000,7.388,4.0,7.421283985942056,10.449,3372,422,238,340

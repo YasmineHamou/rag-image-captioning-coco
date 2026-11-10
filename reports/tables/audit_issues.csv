@@ -1,0 +1,3 @@
+kind,split,image_id,detail,severity
+degenerate_bbox,knowledge_base,200365,"annotation_id=918; bbox=[296.65, 388.33, 1.03, 0.0]; retained raw/category annotation; excluded only from geometric relations/box drawing",warning
+shared_caption_text,,,"87 identical normalized caption strings across splits; inspect, not proof of provenance leakage",warning

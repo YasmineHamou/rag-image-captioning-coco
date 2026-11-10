@@ -1,0 +1,12 @@
+{
+  "status": "verified_vector_reuse",
+  "old_test_size": 100,
+  "new_test_size": 1000,
+  "kb_and_validation_ids_unchanged": true,
+  "image_vectors_unchanged": true,
+  "text_vectors_unchanged": true,
+  "kb_encoder_inputs_identical": true,
+  "kb_embeddings_recomputed": false,
+  "original_release": "reports\\releases\\phase1_test100_before_extension",
+  "verified_utc": "2026-11-07T18:49:56.058874+00:00"
+}

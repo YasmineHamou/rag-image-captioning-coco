@@ -1,0 +1,45 @@
+imp/
+.venv/
+dist/
+releases/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+tmp/
+data/raw/**
+data/interim/**
+data/processed/**
+artifacts/embeddings/**
+artifacts/indexes/**
+artifacts/metadata/**
+!artifacts/**/.gitkeep
+!data/**/.gitkeep
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.npy
+*.npz
+*.index
+.env
+.env.*
+!.env.example
+# Originals remain locally; their organized copies are tracked under docs/ and examples/.
+/*.pdf
+/*.jpg
+# Splits, reports, figures, tables, source and small manifests remain versionable.
+
+# Course materials: do not redistribute without permission
+docs/lectures/*.pdf
+docs/tp/*.pdf
+docs/project/*.pdf
+
+# Local retrieval galleries and temporary backups
+reports/retrieval/manual_*/
+reports/retrieval/validation_backup_*/
+reports/retrieval/**/gallery.html
+reports/retrieval/**/nearest_images.png
+reports/retrieval/**/query_rows.json
+
+docs/project/teacher_clarifications_20261107.md

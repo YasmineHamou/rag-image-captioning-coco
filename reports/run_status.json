@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-11-07T18:56:54.405748+00:00",
+  "preprocessing_version": "phase1-v1",
+  "config_sha256": "9eaaf3d2fde118a3e643aefc44515bc8a3d8025531ad50c749f37b315eba7273",
+  "packages": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "nltk": "3.10.4",
+    "pycocotools": "2.0.11",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.21.0",
+    "faiss-cpu": "1.15.1",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "2.3.0",
+    "tqdm": "4.70.1"
+  },
+  "real_data_execution": {
+    "splits_created": true,
+    "split_sizes": {
+      "knowledge_base": 10000,
+      "validation": 100,
+      "test": 1000
+    },
+    "test_status": "PROVISIONAL_NOT_TEACHER_SPLIT",
+    "data_audit_passed": true,
+    "eda_produced": true,
+    "embeddings_produced": true,
+    "embedding_checkpoint_progress": {
+      "image": 10000,
+      "text": 50000
+    },
+    "embedding_counts": {
+      "image": 10000,
+      "text": 50000
+    },
+    "indexes_produced": true,
+    "quality_control_passed": true,
+    "validation_queries": 100,
+    "retrieval_passed": true
+  },
+  "stale_configuration_artifacts": [],
+  "teacher_confirmation_pending": [
+    "common_official_test_ids",
+    "preprocessing_validation"
+  ],
+  "updated_teacher_requirements": {
+    "source": "docs/project/teacher_clarifications_20261107.md",
+    "test_target": 1000,
+    "extended_test_prepared": true,
+    "initial_test_100_preserved": true,
+    "human_reference_confidence": 1.0,
+    "comparison_statistics_produced": true,
+    "visual_detector_executed": false,
+    "local_requirements_passed": true,
+    "full_compliance": false
+  },
+  "caption_generation_started": false
+}

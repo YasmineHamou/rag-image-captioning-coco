@@ -1,0 +1,208 @@
+{
+  "reviewed_utc": "2026-11-07T18:56:54.094998+00:00",
+  "scope": "Phase 1 only; no training, final caption generation or final evaluation",
+  "clarification_source": "docs/project/teacher_clarifications_20261107.md",
+  "observed_sizes": {
+    "knowledge_base": 10000,
+    "validation": 100,
+    "test": 1000
+  },
+  "teacher_target_sizes": {
+    "knowledge_base": 10000,
+    "validation": 100,
+    "test": 1000
+  },
+  "train_total": 10100,
+  "unique_selected_images": 11100,
+  "current_test_ids_preserved": true,
+  "comparison_test_images": 100,
+  "comparison_policy": "Original test100 nested in test1000, not counted twice",
+  "official_teacher_ids_available": false,
+  "local_phase1_requirements_passed": true,
+  "full_compliance_with_updated_requirements": false,
+  "checks": [
+    {
+      "requirement": "kb_10000_train2017",
+      "satisfied": true,
+      "detail": "10 000 images train2017",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "validation_100_disjoint",
+      "satisfied": true,
+      "detail": "100 autres images train2017",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "test_1000_val2017",
+      "satisfied": true,
+      "detail": "1 000 images val2017 auditees et preparees",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "legacy_test_100_preserved",
+      "satisfied": true,
+      "detail": "100 IDs originaux conserves dans les 1 000 ; statistiques separees",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "caption_confidence_one_documented_in_metadata",
+      "satisfied": true,
+      "detail": "References humaines : confiance=1, seuil=1 ; heuristiques sans confiance=1",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "object_image_association",
+      "satisfied": true,
+      "detail": "Annotations COCO reliees par image_id, category_id et bbox",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "before_after_and_both_test_statistics",
+      "satisfied": true,
+      "detail": "Comparaison descriptive et EDA des tests 100/1000",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "embeddings_and_faiss_verified",
+      "satisfied": true,
+      "detail": "500 voisins rejoues, vecteurs et correspondances verifies",
+      "required_for_local_preparation": true
+    },
+    {
+      "requirement": "direct_visual_object_detector",
+      "satisfied": false,
+      "detail": "Option recommandee non executee ; annotations COCO utilisees",
+      "required_for_local_preparation": false
+    },
+    {
+      "requirement": "common_teacher_test_ids",
+      "satisfied": false,
+      "detail": "Liste commune non fournie ; test local stratifie et gele",
+      "required_for_local_preparation": false
+    }
+  ],
+  "before_after": {
+    "knowledge_base": {
+      "images_before": 10000,
+      "images_after": 10000,
+      "captions_before": 50000,
+      "captions_after": 50000,
+      "raw_references_modified": 0,
+      "clean_caption_fields_different_from_raw": 7743,
+      "raw_characters": 2620933,
+      "clean_characters": 2612839,
+      "object_annotation_entries_retained": 72507,
+      "valid_boxes_used_for_geometry": 72506,
+      "invalid_boxes_excluded_from_geometry": 1,
+      "object_sources": {
+        "coco_annotation": 72507
+      },
+      "cleaning_example": {
+        "caption_id": 424250,
+        "caption_raw": "Bunk bed with a narrow shelf sitting underneath it. ",
+        "caption_clean": "Bunk bed with a narrow shelf sitting underneath it.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      }
+    },
+    "validation": {
+      "images_before": 100,
+      "images_after": 100,
+      "captions_before": 500,
+      "captions_after": 500,
+      "raw_references_modified": 0,
+      "clean_caption_fields_different_from_raw": 72,
+      "raw_characters": 25820,
+      "clean_characters": 25742,
+      "object_annotation_entries_retained": 734,
+      "valid_boxes_used_for_geometry": 734,
+      "invalid_boxes_excluded_from_geometry": 0,
+      "object_sources": {
+        "coco_annotation": 734
+      },
+      "cleaning_example": {
+        "caption_id": 781743,
+        "caption_raw": "A look at a bathroom that has be freshly cleaned. ",
+        "caption_clean": "A look at a bathroom that has be freshly cleaned.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      }
+    },
+    "test": {
+      "images_before": 1000,
+      "images_after": 1000,
+      "captions_before": 5000,
+      "captions_after": 5000,
+      "raw_references_modified": 0,
+      "clean_caption_fields_different_from_raw": 745,
+      "raw_characters": 262598,
+      "clean_characters": 261809,
+      "object_annotation_entries_retained": 7388,
+      "valid_boxes_used_for_geometry": 7388,
+      "invalid_boxes_excluded_from_geometry": 0,
+      "object_sources": {
+        "coco_annotation": 7388
+      },
+      "cleaning_example": {
+        "caption_id": 398580,
+        "caption_raw": "A stop sign is mounted upside-down on it's post. ",
+        "caption_clean": "A stop sign is mounted upside-down on it's post.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      }
+    },
+    "test_100": {
+      "images_before": 100,
+      "images_after": 100,
+      "captions_before": 500,
+      "captions_after": 500,
+      "raw_references_modified": 0,
+      "clean_caption_fields_different_from_raw": 88,
+      "raw_characters": 25890,
+      "clean_characters": 25797,
+      "object_annotation_entries_retained": 705,
+      "valid_boxes_used_for_geometry": 705,
+      "invalid_boxes_excluded_from_geometry": 0,
+      "object_sources": {
+        "coco_annotation": 705
+      },
+      "cleaning_example": {
+        "caption_id": 551764,
+        "caption_raw": "A group of children sitting on the grass with frisbees in their hands. ",
+        "caption_clean": "A group of children sitting on the grass with frisbees in their hands.",
+        "source": "coco_human_reference",
+        "confidence": 1.0,
+        "confidence_policy": "human_reference_convention_only"
+      }
+    }
+  },
+  "saved_validation_queries_replayed": 100,
+  "saved_hits_replayed": 500,
+  "quality_control_timestamp": "2026-11-07T18:56:41.765850+00:00",
+  "artifact_sha256": {
+    "configs/config.yaml": "f1e1a424d6bc04f2e3a440c1392eb24d360d8d2c5e771d4f429823c1169efaba",
+    "artifacts/splits/split_manifest.json": "1a45e8f52555b31d9a4b273655f12295f466ba7dc2752326f363b02a68c445ab",
+    "artifacts/splits/test_ids.json": "72e9555c31d80ef6690049e0a88b38a0cdaca4c1f79e168ea02d006fee1ec853",
+    "artifacts/splits/comparison/test_100_ids.json": "a4464be8bb231360718d2bed7e51e71d0391f668fdc50c09664e69d5f2b81b39",
+    "artifacts/metadata/manifest.json": "6b958e7a77eea549cc98898cf2098b420ca7b2b3162d386b3263099b469cddf4",
+    "artifacts/embeddings/manifest.json": "785ecbdbd95057a35979d53486050822438f46d0fc411b6d4d6c9679a2fad701",
+    "artifacts/indexes/manifest.json": "22a5616ee0dcbd1f044f5bf538b493b850236ca8377a1f4077d0e5c280107307",
+    "reports/eda.json": "c01610e873d63613654b97b000939c98df52db0abaab7bea0a47d3f5b0772e38",
+    "reports/audit.json": "395945159cfa36d3e1a5d358137cdd8ffe8bfc5ecba82a6781fed441af6c8dde",
+    "reports/quality_control.json": "4a0ad9b963c7b590346d33ab4fb8584bbbe651baee117e77b03e8190046dfcd5",
+    "reports/retrieval/validation/results.json": "d7317fa18b1fa9f34f651e7e73374ec103d100b63edbf9785bfe1f8f9f0de3cf"
+  },
+  "image_vectors": [
+    10000,
+    512
+  ],
+  "text_vectors": [
+    50000,
+    512
+  ],
+  "final_caption_generation_started": false
+}

@@ -1,0 +1,48 @@
+{
+  "reviewed_utc": "2026-11-07T20:40:01.622535+00:00",
+  "scope": "Pedagogical revision of the existing phase-1 report; no final captioning or RAG evaluation",
+  "reports": [
+    {
+      "file": "output\\pdf\\Rapport_phase1_FR.pdf",
+      "pages": 20,
+      "sha256": "e657d4546380ad1c15f2371976781301f5e21da9b069f4ba3741e23ab973040d"
+    },
+    {
+      "file": "output\\pdf\\Phase1_report_EN.pdf",
+      "pages": 20,
+      "sha256": "0ffceee056e6e8fc95d1d3f90fa67b0ad0ff17da77a3534ee75907041444a12a"
+    }
+  ],
+  "visual_review": {
+    "all_rendered_pages_inspected": 40,
+    "pages_per_language": 20,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "pipeline_font_enlarged": true,
+    "overflows_detected": 0
+  },
+  "additions": [
+    "Complete pipeline with separate KB, validation and test branches",
+    "Technical choices explained with reasons and limits",
+    "Real COCO 490 file-to-vector-to-FAISS-to-caption worked example",
+    "Illustrative success and failure cases from saved validation results"
+  ],
+  "real_example": {
+    "query_image_id": 490,
+    "saved_vector_norm": 1.0,
+    "top5_replayed": true,
+    "top5_direct_dot_products_match_with_atol": 1e-06,
+    "mapping_and_caption_references_checked": true,
+    "source": "reports/pedagogical_example.json"
+  },
+  "local_phase1_requirements_passed": true,
+  "full_official_compliance": false,
+  "remaining_external_dependency": "Common teacher test IDs and teacher approval; local test1000 is clearly identified as provisional",
+  "publication_authorization": "Student explicitly chose publication with this reservation clearly stated",
+  "data_archives_rebuilt": false,
+  "knowledge_base_embeddings_recomputed": false,
+  "git_evidence_policy": "JSON, YAML and CSV stored without line-ending conversion, preserving byte-level evidence hashes",
+  "staged_whitespace_check": "Passed; CRLF accepted; original third-party license final blank line retained"
+}

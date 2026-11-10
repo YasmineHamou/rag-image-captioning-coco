@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-10T15:52:28.011042+00:00",
+  "preprocessing_version": "phase1-v1",
+  "config_sha256": "9eaaf3d2fde118a3e643aefc44515bc8a3d8025531ad50c749f37b315eba7273",
+  "packages": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "nltk": "3.10.4",
+    "pycocotools": "2.0.11",
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "faiss-cpu": "1.15.1",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "2.4.0",
+    "tqdm": "4.70.1"
+  },
+  "passed": true,
+  "checks": [
+    "data audit, file/pixel hashes, split provenance, no overlap",
+    "metadata IDs, captions, unchanged raw references",
+    "human-reference confidence=1; derived attributes do not inherit human confidence",
+    "finite float32 normalized embeddings, dimensions, row identity, input/config hashes",
+    "FAISS counts, metric, mapping, reconstructed vector equality",
+    "same-image exclusion for image and all text rows",
+    "validation query vectors, IDs, hashes and every saved top-k result replayed against FAISS"
+  ],
+  "split_sha256": "49dc4079e94ec8e6e9c66ef16fb07cf0957379c0ef52918f8931b742bff84f4b"
+}

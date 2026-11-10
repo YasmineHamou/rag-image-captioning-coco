@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "tests": 16,
+  "status": "passed",
+  "scope": "Synthetic software fixtures only; real COCO checks recorded separately",
+  "log": "tmp/phase1_unit_tests_final.log"
+}

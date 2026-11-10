@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-11-10T15:55:44.781668+00:00",
+  "preprocessing_version": "phase1-v1",
+  "config_sha256": "9eaaf3d2fde118a3e643aefc44515bc8a3d8025531ad50c749f37b315eba7273",
+  "packages": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "nltk": "3.10.4",
+    "pycocotools": "2.0.11",
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "faiss-cpu": "1.15.1",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "2.4.0",
+    "tqdm": "4.70.1"
+  },
+  "query_image_id": 490,
+  "query_split": "validation",
+  "index": "image",
+  "latency_ms": 126.32270000176504,
+  "results": [
+    {
+      "image_id": 267664,
+      "row": 4450,
+      "cosine_similarity": 0.8183752298355103,
+      "captions": [
+        "A cat standing next to a red chair in a living room.",
+        "A lone cat sits in a dark room with some furniture.",
+        "A cat in a living room next to a red chair.",
+        "A cat sitting next to a red chair in a room.",
+        "A cat sits on the floor next to a sofa."
+      ]
+    },
+    {
+      "image_id": 545323,
+      "row": 9369,
+      "cosine_similarity": 0.8011094331741333,
+      "captions": [
+        "a close up of a dog laying on a bench ",
+        "A dog is sitting on a black bench.",
+        "A dog laying on a bench on a porch.",
+        "The dog was laying in the sun on the bench.",
+        "A dog is sitting on a bench in front of a wall. "
+      ]
+    },
+    {
+      "image_id": 127643,
+      "row": 2178,
+      "cosine_similarity": 0.7903618812561035,
+      "captions": [
+        "A dog rides a skateboard down a sidewalk. ",
+        "A bull dog with a bandana rides a skateboard.",
+        "A dog is riding on a black skateboard with maroon wheels.",
+        "A dog wearing a bandana rides a skateboard.",
+        "A brown dog standing on top of a skateboard."
+      ]
+    },
+    {
+      "image_id": 516396,
+      "row": 8833,
+      "cosine_similarity": 0.778217077255249,
+      "captions": [
+        "A big dark colored dog standing with his front paws on a skate board.",
+        "A dog standing with front paws on a skateboard",
+        "A dog is panting while riding two paw on a skateboard.",
+        "A dog with its front paws on a skateboard. ",
+        "A warm brown dog standing on a skateboard in a park."
+      ]
+    },
+    {
+      "image_id": 81686,
+      "row": 1366,
+      "cosine_similarity": 0.7727912068367004,
+      "captions": [
+        "A dog sits on a rug with its eyes closed. ",
+        "Most of this dog is either happy, tired, or a combination of both",
+        "The dog is sitting on the area rug. ",
+        "a dog sitting on a rug with his eyes closed",
+        "A dog sitting on a rug with his eyes close. "
+      ]
+    }
+  ],
+  "purpose": "Preprocessing retrieval smoke test; no caption generation or quality metric"
+}

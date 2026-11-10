@@ -1,0 +1,13 @@
+* text=auto eol=lf
+# Preserve byte-level evidence hashes across Windows checkouts and GitHub ZIPs.
+*.json -text
+*.jsonl -text
+*.yaml -text
+*.yml -text
+*.csv -text
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.npy binary
+*.index binary
