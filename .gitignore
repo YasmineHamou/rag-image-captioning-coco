@@ -13,8 +13,13 @@ data/processed/**
 artifacts/embeddings/**
 artifacts/indexes/**
 artifacts/metadata/**
-!artifacts/**/.gitkeep
-!data/**/.gitkeep
+!artifacts/indexes/.gitkeep
+!artifacts/metadata/.gitkeep
+!artifacts/splits/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
 *.safetensors
 *.pt
 *.pth

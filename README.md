@@ -6,7 +6,7 @@ Groupe : **Hamou Yasmine, Ouziala Ali et Lounis Aya**.
 
 Ce dépôt traite uniquement la phase 1, prévue pour le **4 novembre 2026** et mise à jour le **7 novembre 2026** selon les précisions transmises. Il prépare les données et vérifie la recherche d'images proches. Il ne génère pas de captions finales et n'entraîne pas de RAG.
 
-**Contenu de GitHub :** code, listes d'IDs, statistiques, résultats sauvegardés et rapports PDF. Les photos, les poids CLIP, les matrices et les index volumineux sont dans le dossier préparé pour Drive. Après un téléchargement depuis GitHub seul, suivre les commandes « Reproduire depuis le code seul » ci-dessous ; les gros fichiers ne sont pas inclus dans son ZIP.
+**Contenu de GitHub :** code, [description du jeu de données](DATASET.md), listes d'IDs, statistiques, figures, résultats de validation retrieval et rapports PDF/Markdown. Les photos, les poids CLIP, les matrices et les index volumineux restent locaux et sont exclus par `.gitignore`.
 
 ## Tester maintenant sur ce PC
 
@@ -66,7 +66,9 @@ La détection automatique dans les pixels est une recommandation facultative ; a
 
 ## Rapport, statistiques et preuves
 
-- [Rapport anglais (PDF)](output/pdf/Phase1_report_EN.pdf).
+- [Rapport anglais (PDF)](output/pdf/Phase1_report_EN.pdf) et [version Markdown](output/pdf/Phase1_report_EN.md).
+- [Jeu de données et règles de partage](DATASET.md).
+- [Figures et validation retrieval](results/README.md).
 - [Vérification des exigences](reports/phase1_review_20261107.md), [audit des données](reports/audit.json), [contrôle qualité](reports/quality_control.json), [statut](reports/run_status.json).
 - `reports/eda.json`, `reports/figures/` et `reports/tables/` : effectifs, classes, complexité, captions, vocabulaire, POS, relations, cooccurrences et diversité.
 - `reports/phase1_upgrade.json` : preuve que les IDs base/validation et les matrices CLIP ont été conservés.
@@ -74,7 +76,7 @@ La détection automatique dans les pixels est une recommandation facultative ; a
 
 Les rapports sont fondés sur les fichiers réellement produits. Les captions affichées par la recherche sont des références humaines récupérées, pas des captions générées.
 
-**Pour découvrir le projet sans le connaître :** commencer par le schéma complet (page 3) et les raisons des choix (page 4). Suivre ensuite la photo COCO 490 depuis son fichier jusqu'aux résultats FAISS (page 16), puis lire les réussites et les erreurs observées (page 17). Les commandes de reproduction sont aux pages 18-19. Une *caption* est une phrase décrivant une photo ; un *embedding* est sa représentation par une liste de nombres ; FAISS compare ces listes pour retrouver les photos proches.
+**Pour découvrir le projet sans le connaître :** commencer par le pipeline, puis lire les partitions et les choix de prétraitement. Le cas de l'image COCO 490 explique les réussites et les erreurs de retrieval. Les étapes de reproduction figurent à la fin du rapport. Les figures et le résultat de validation le plus récent sont regroupés dans [`results/`](results/). Une *caption* est une phrase décrivant une photo ; un *embedding* est sa représentation par une liste de nombres ; FAISS compare ces listes pour retrouver les photos proches.
 
 L'exemple détaillé est vérifié dans [pedagogical_example.json](reports/pedagogical_example.json) : le vecteur de requête réellement sauvegardé est recherché à nouveau dans FAISS et les cinq scores sont recalculés par produit scalaire. Les deux cas commentés sont des illustrations, pas une mesure du taux de réussite. La similarité ne garantit pas que les objets ou les actions correspondent.
 
@@ -116,7 +118,7 @@ Importer **ce dossier entier** dans Drive : Nouveau > Importer un dossier. Le de
 
 Les anciennes distributions `Projet_ITI_Drive` et le ZIP autonome Windows décrivent la version antérieure à 100 images de test. Elles sont conservées comme anciennes versions et ne doivent pas être présentées comme la version actualisée.
 
-## Reconstruire le rapport et les archives
+## Reconstruire le rapport généré par le code et les archives
 
 ```powershell
 py -3.12 -m pip install --target tmp/report_deps reportlab pypdf
@@ -124,6 +126,6 @@ py -3.12 -m pip install --target tmp/report_deps reportlab pypdf
 .\imp\Scripts\python.exe scripts/build_drive_package.py
 ```
 
-Le générateur d'archives refuse d'écraser un dossier de distribution existant. Le générateur de PDF vérifie les preuves de la revue avant de rédiger. L'utilitaire `extend-test` a servi uniquement à la migration documentée du test initial ; il n'est pas nécessaire pour un nouveau téléchargement utilisant les listes déjà gelées.
+Attention : `build_phase1_report.py` regénère les rapports à partir des données locales et remplace les fichiers du même nom dans `output/pdf/`. Le PDF anglais et son édition Markdown actuellement publiés sont ceux du rapport fourni ; sauvegardez-les avant de lancer ce générateur. Le générateur d'archives refuse d'écraser un dossier de distribution existant. L'utilitaire `extend-test` a servi uniquement à la migration documentée du test initial ; il n'est pas nécessaire pour un nouveau téléchargement utilisant les listes déjà gelées.
 
 Référence principale : [cahier des charges](docs/project/Image%20processing%20mini-project%20english%20version.pdf). Les cours et le TP sont du contexte. [Précisions transmises](docs/project/teacher_clarifications_20261107.md). Les exemples du TP ne sont pas les données scientifiques COCO.

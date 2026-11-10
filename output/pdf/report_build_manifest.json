@@ -1,23 +1,21 @@
 {
-  "evidence_review_sha256": "6626694f97051f86da434ce8311e301c3452740b160d29871b7b579909bb9122",
   "reports": [
     {
-      "file": "output\\pdf\\Rapport_phase1_FR.pdf",
-      "pages": 20,
-      "sha256": "e657d4546380ad1c15f2371976781301f5e21da9b069f4ba3741e23ab973040d"
+      "file": "output/pdf/Phase1_report_EN.pdf",
+      "pages": 13,
+      "sha256": "e013eca10ad60f1b8082de7916da16170c1c0ce9ca02ca4d800327304767f67e",
+      "source": "user-supplied report"
     },
     {
-      "file": "output\\pdf\\Phase1_report_EN.pdf",
-      "pages": 20,
-      "sha256": "0ffceee056e6e8fc95d1d3f90fa67b0ad0ff17da77a3534ee75907041444a12a"
+      "file": "output/pdf/Phase1_report_EN.md",
+      "sha256": "e09a15cfa8a3d54f8663380568aed7bfee4c7a48472018c287a4bddcc3299c40",
+      "source": "transcription of output/pdf/Phase1_report_EN.pdf"
     }
   ],
-  "pedagogical_example_sha256": "67c9b03afc8884f178d39a1e1eb4d04d2781ebce4062749fd0abdc4f52d5c916",
   "authors": [
     "Hamou Yasmine",
     "Ouziala Ali",
     "Lounis Aya"
   ],
-  "numeric_evidence": "Real local COCO artifacts; no data imported from the example report",
-  "scope": "Phase 1: 10000 KB, 100 validation, 1000 test, nested original 100; no final RAG evaluation"
+  "scope": "Phase 1 report: 10000 knowledge-base images, 100 validation queries, 1000 test images, nested original test-100; no final RAG evaluation"
 }
