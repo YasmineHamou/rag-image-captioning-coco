@@ -66,7 +66,7 @@ La détection automatique dans les pixels est une recommandation facultative ; a
 
 ## Rapport, statistiques et preuves
 
-- [Rapport français](output/pdf/Rapport_phase1_FR.pdf) et [rapport anglais](output/pdf/Phase1_report_EN.pdf), avec logo de l'université, membres du groupe, méthode, statistiques et commandes. Sources Markdown à côté des PDF.
+- [Rapport anglais (PDF)](output/pdf/Phase1_report_EN.pdf).
 - [Vérification des exigences](reports/phase1_review_20261107.md), [audit des données](reports/audit.json), [contrôle qualité](reports/quality_control.json), [statut](reports/run_status.json).
 - `reports/eda.json`, `reports/figures/` et `reports/tables/` : effectifs, classes, complexité, captions, vocabulaire, POS, relations, cooccurrences et diversité.
 - `reports/phase1_upgrade.json` : preuve que les IDs base/validation et les matrices CLIP ont été conservés.
